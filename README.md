@@ -2,7 +2,7 @@
 
 # YAML File...
 
-stages:
+`stages:
   - build
   - test
   - deploy
@@ -37,7 +37,7 @@ deploy:
     # Your deployment commands here (e.g., copy to server)
     - echo "Deploying to server..."
   only:
-    - feature
+    - feature`
     
 # ..
 
